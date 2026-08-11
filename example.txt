@@ -1,0 +1,1 @@
+python main.py --centres "ROSNY B" --quota 2 --mode consecutifs --heure-min "09:00" --heure-max "11:00" --date-min "2026-07-31" --date-max "2026-07-31" --nb-eleves 1 --rush-heure "10:30"

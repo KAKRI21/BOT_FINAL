@@ -1,0 +1,37 @@
+{
+  "bot.py": {
+    "mtime": 1781493315.8724356,
+    "ast_hash": "afc1bdc2a1eacf63239b2dd5121770d9",
+    "semantic_hash": "afc1bdc2a1eacf63239b2dd5121770d9"
+  },
+  "cookies.json": {
+    "mtime": 1783067841.8096776,
+    "ast_hash": "d84acf2574c1deaf36e5f132b7a81277",
+    "semantic_hash": "d84acf2574c1deaf36e5f132b7a81277"
+  },
+  "main.py": {
+    "mtime": 1781493315.8936758,
+    "ast_hash": "1b029336abf61cd98535d1e5a67bb579",
+    "semantic_hash": "1b029336abf61cd98535d1e5a67bb579"
+  },
+  "notifier.py": {
+    "mtime": 1781493315.8936758,
+    "ast_hash": "8f4f0be98dce20ece70ea6b83861383e",
+    "semantic_hash": "8f4f0be98dce20ece70ea6b83861383e"
+  },
+  "test_ban.py": {
+    "mtime": 1781493315.910674,
+    "ast_hash": "180b5c0d7e6d4a987c428ca127cce517",
+    "semantic_hash": "180b5c0d7e6d4a987c428ca127cce517"
+  },
+  "test_identite.py": {
+    "mtime": 1781493315.9145825,
+    "ast_hash": "8e4f11b2cad00690870926acdec7331d",
+    "semantic_hash": "8e4f11b2cad00690870926acdec7331d"
+  },
+  "test_navigation.py": {
+    "mtime": 1781493315.9181,
+    "ast_hash": "256fa235a4b513fc47fe17b2ce14744d",
+    "semantic_hash": "256fa235a4b513fc47fe17b2ce14744d"
+  }
+}

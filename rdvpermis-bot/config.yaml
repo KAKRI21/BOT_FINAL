@@ -1,0 +1,16 @@
+search:
+  groupe_permis: "B"
+  date_min: "2026-05-21"
+  date_max: "2026-09-30"
+
+bot:
+  interval_secondes: 5
+
+notifications:
+  son_local: true
+  telegram:
+    active: false
+    bot_token: ""
+    chat_id: ""
+  email:
+    active: false

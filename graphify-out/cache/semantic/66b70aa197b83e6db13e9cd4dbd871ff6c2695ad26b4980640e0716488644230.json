@@ -1,0 +1,1 @@
+{"nodes": [{"id": "rdvpermis_bot_config", "label": "Bot Configuration", "file_type": "document", "source_file": "rdvpermis-bot/config.yaml"}], "edges": [{"source": "rdvpermis_bot_config", "target": "config", "relation": "semantically_similar_to", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "rdvpermis-bot/config.yaml"}], "hyperedges": []}

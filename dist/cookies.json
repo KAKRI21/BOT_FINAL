@@ -1,0 +1,724 @@
+[
+  {
+    "name": "AUTH_SESSION_ID",
+    "value": "OGFhNDI4MzYtYmE3My00ODgwLWI4ODAtODEyNjEwOTM1Y2QyLnJfM24xUjdBblhzN0ZQV29jQWZ0UEtpTVJpSjVwR0RsTUdDdk04UzV4djZRbU5hZXZ0eTE3ZWpoazIxZU1iVmZuSHVQREg3VXIxcWcyeGR2WHRuYXJn.authent-50783",
+    "domain": "moncompte.permisdeconduire.gouv.fr",
+    "path": "/auth/realms/formation/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KC_AUTH_SESSION_HASH",
+    "value": "+bNsPq15+ycl9jFcn0xxCoOnBPRzr3zeODb5crsrk+o",
+    "domain": "moncompte.permisdeconduire.gouv.fr",
+    "path": "/auth/realms/formation/",
+    "expires": 1786452683.771886,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "KEYCLOAK_IDENTITY",
+    "value": "eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjYzc1N2VmOS04ZDc1LTRjMmYtOTNkOS1lZGQ4MGQxODcyMTAifQ.eyJleHAiOjE3ODY0ODg2MzUsImlhdCI6MTc4NjQ1MjYzNSwianRpIjoiM2M0NmNmNTctNjIwNC00MjE0LTg3NGEtNDFkYjU3ODhmNjk4IiwiaXNzIjoiaHR0cHM6Ly9tb25jb21wdGUucGVybWlzZGVjb25kdWlyZS5nb3V2LmZyL2F1dGgvcmVhbG1zL2Zvcm1hdGlvbiIsInN1YiI6IjNkMTU5ZjBmLWFhY2EtNDBhYS1iMzdmLTE1OWI0ODk1ODVmNCIsInR5cCI6IlNlcmlhbGl6ZWQtSUQiLCJzaWQiOiI4YWE0MjgzNi1iYTczLTQ4ODAtYjg4MC04MTI2MTA5MzVjZDIiLCJzdGF0ZV9jaGVja2VyIjoiTVg3M2Q0YWtTWDJQczAwS1UxVjJsejVfclA5eDNpSGItczk3TkMxaFFoRSJ9.bz6VTfg_9R1YWpCfdI4vQmO_PK80NZMMHS_YtfDl1wQXlo8020lfecRNp_ov8s7zXI_hBAN_1cJDql17SeHO0A",
+    "domain": "moncompte.permisdeconduire.gouv.fr",
+    "path": "/auth/realms/formation/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KEYCLOAK_SESSION",
+    "value": "-bNsPq15-ycl9jFcn0xxCoOnBPRzr3zeODb5crsrk-o",
+    "domain": "moncompte.permisdeconduire.gouv.fr",
+    "path": "/auth/realms/formation/",
+    "expires": 1786488635.980603,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "SNID",
+    "value": "AL3h32xZqGEA0I2xICRoftNffbjbkMVhdK-RjYyyPIOe28-Hkdm8ON8f6p1IlNMEZzT1VPrMkL4v0umQrlEn_roxg9sIXKlJQg",
+    "domain": ".google.com",
+    "path": "/verify",
+    "expires": 1802263798.936298,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SOCS",
+    "value": "CAISHAgBEhJnd3NfMjAyNjA3MjQtMF9SQzIaAmZyIAEaBgiA4p_TBg",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1819354963.568435,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "value": "6nFfKQQcH_g",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1800782784.788447,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://google.com",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_PRIVACY_METADATA",
+    "value": "CgJGUhIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgNw%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1800782784.788693,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://google.com",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "__Secure-YNID",
+    "value": "20.YT=VNVPMCipEGJZWfZS586ZnZmhjLWxpG3S3iL2yl2ApwUire7nHSdsxA-TN8jR53CnHWdHuyKBNcxJE4O_m0rOzCDlm61XFpa5pSbFB0i0sZdq51VuWPSvD-rsgoxnExZTRtfxzil9QLZz4k_i308GJ7Ra11qJpqIRxx9Essey_xZiR60TDQol7wEtUUq1EGEZVzgI13xicJXu6XzlAZaOouYrruUIUiK2oEoy4HIfOQNvXkF7WP0R6e7u3n5N_ce6pUfqatJ7gM4xs2RlNtAwhcWJkkFeODK1wOiim4fP3HBOD67HYJV0scRsToxTUOfs2zJR9TBz7x8y8Z9MFrFQDw",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1800778999.459889,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://google.com",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "__Secure-ROLLOUT_TOKEN",
+    "value": "CNrogqTn7OH78QEQyZu96fj0lQMY5aXE6fj0lQM%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1800778999.460068,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://google.com",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "TCPID",
+    "value": "1267210232010396776422",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1819182200,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "TC_PRIVACY",
+    "value": "0%40010%7C19%7C3602%408%2C11%2C12%2C13%2C17%2C18%2C19%2C20%2C21%2C23%2C24%2C25%2C26%4022%401785227001953%2C1785227001953%2C1818923001953%40",
+    "domain": ".www.securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1818923001,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "TC_PRIVACY_CENTER",
+    "value": "8%2C11%2C12%2C13%2C17%2C18%2C19%2C20%2C21%2C23%2C24%2C25%2C26",
+    "domain": ".www.securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1818923001,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "etuix",
+    "value": "C5kfxfd6qXyUhHfRWyDbhN1XKSbBmQ1wUl2tssUf_HubvJrzS9TH5Q--",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1819182203.239962,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "EA_cookie_intermediaire",
+    "value": "1",
+    "domain": ".www.securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1816766794,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "EA_cookie_intermediaire",
+    "value": "1",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1819182205.719018,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AFFICHE_C",
+    "value": "dfpHSQ0C1MV151",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1800951805,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "AFFICHE_W",
+    "value": "hF3LY6Xb-zaE31",
+    "domain": ".weborama.fr",
+    "path": "/",
+    "expires": 1819182206.043261,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.1662235343.1785227006",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1793003006,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "wui",
+    "value": "F7DA60F4-97B1-40BD-AFF2-2541D6559B7E",
+    "domain": ".weborama.com",
+    "path": "/",
+    "expires": 1819182207.22509,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "rlas3",
+    "value": "wpel+mSC7Bojs7asMaRR3ZVMs9KpesBauURFp437JmI=",
+    "domain": ".rlcdn.com",
+    "path": "/",
+    "expires": 1816763006.575485,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "uid",
+    "value": "4928013b-15a3-4bf3-928c-84ea69091fb9",
+    "domain": ".criteo.com",
+    "path": "/",
+    "expires": 1818923006.323869,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "C",
+    "value": "1",
+    "domain": ".adform.net",
+    "path": "/",
+    "expires": 1787905406.373573,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.2.1785227006375.255554320178420820",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1793006795,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "uid",
+    "value": "1990690414278487652",
+    "domain": ".adform.net",
+    "path": "/",
+    "expires": 1790414795.559919,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ad-id",
+    "value": "AxW6coCivksttfznRnVXP7M",
+    "domain": ".amazon-adsystem.com",
+    "path": "/",
+    "expires": 1806567806.494129,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ad-privacy",
+    "value": "0",
+    "domain": ".amazon-adsystem.com",
+    "path": "/",
+    "expires": 1819787006.494342,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "pxrc",
+    "value": "CP/NodMGEgYIwuoBEAA=",
+    "domain": ".rlcdn.com",
+    "path": "/",
+    "expires": 1790411006.575605,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "IDE",
+    "value": "AHWqTUn74e-69oV6OFqX6sIh1wCXSwYqN4M2h5dokkZzhMidhh5jcH8wrDQTccXGANc",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1818923006.581243,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "uid",
+    "value": "1990690414278487652",
+    "domain": ".seadform.net",
+    "path": "/",
+    "expires": 1790411006.608239,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_uid",
+    "value": "umv296b_7669199154934918098",
+    "domain": ".fwmrm.net",
+    "path": "/",
+    "expires": 1800779006.624028,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "KADUSERCOOKIE",
+    "value": "64E2B586-5E5A-4455-9472-D7255684BD32",
+    "domain": ".pubmatic.com",
+    "path": "/",
+    "expires": 1816763006.629656,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CMID",
+    "value": "amhm-7mqPV4AMJeGAPQuNgAA",
+    "domain": ".casalemedia.com",
+    "path": "/",
+    "expires": 1816766796.154337,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CMPS",
+    "value": "3193",
+    "domain": ".casalemedia.com",
+    "path": "/",
+    "expires": 1793003006.634631,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CMPRO",
+    "value": "3193",
+    "domain": ".casalemedia.com",
+    "path": "/",
+    "expires": 1793006796.154513,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "EE",
+    "value": "\"fcd4a37b825f9206a19a9de229645a3d\"",
+    "domain": ".exelator.com",
+    "path": "/",
+    "expires": 1795595006.743634,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "SEUNCY",
+    "value": "FDDD930203C0F252",
+    "domain": ".semasio.net",
+    "path": "/",
+    "expires": 1816763006.919369,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "visitor-id",
+    "value": "4282286074393201000V10",
+    "domain": ".media.net",
+    "path": "/",
+    "expires": 1795595006.712097,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "data-c",
+    "value": "k-8704Jsu9wfJ4OF2hxEa7hGCs3qdk5uECAlEXgw~~3",
+    "domain": ".media.net",
+    "path": "/",
+    "expires": 1787822796.075911,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "pid",
+    "value": "7300073132696401705",
+    "domain": ".smartadserver.com",
+    "path": "/",
+    "expires": 1793003007.724657,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "TestIfCookieP",
+    "value": "ok",
+    "domain": ".smartadserver.com",
+    "path": "/",
+    "expires": 1819441407.724808,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "csync",
+    "value": "79:k--Lf9ccu9wfJ4OF2hxEa7hGCs3qdB3kLrV0BL3w",
+    "domain": ".smartadserver.com",
+    "path": "/",
+    "expires": 1787822797.642679,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "arcki2",
+    "value": "ms4e2eyc-qvUVRJOnSn1C2eYtcdPmgg-ad!20210107!1785227007540!ip#141.255.129.14",
+    "domain": ".audrte.com",
+    "path": "/",
+    "expires": 1786523006.726115,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "arcki2_adform",
+    "value": "1990690414278487652!20210107!1785227007540",
+    "domain": ".audrte.com",
+    "path": "/",
+    "expires": 1786523006.726157,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ud",
+    "value": "\"eJxrXxzq6XKLQSEtOcUk0dg8ycLINM3SyMAs0dAy0TIl1cjI0szENNE4ZXFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzmnFGUn5u6AiwU5hq02NDUYEl%252BUWb6IregxUUpaQyLSopPBZ%252B%252F%252FBIAqh4rMw%253D%253D\"",
+    "domain": ".exelator.com",
+    "path": "/",
+    "expires": 1795595006.743713,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "opt_out",
+    "value": "1",
+    "domain": ".postrelease.com",
+    "path": "/",
+    "expires": 1816766796.506166,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "MUID",
+    "value": "3D4BB16B6C206A201F6FA6CF6DB46B71",
+    "domain": ".bing.com",
+    "path": "/",
+    "expires": 1818923007.76292,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "wfivefivec",
+    "value": "uYJnGlnD1WOD5Z5",
+    "domain": ".w55c.net",
+    "path": "/",
+    "expires": 1819441406.790493,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "arcki2_ddp2",
+    "value": "ms4e2eyc-qvUVRJOnSn1C2eYtcdPmgg-ad!20210107!1785227007596",
+    "domain": ".audrte.com",
+    "path": "/",
+    "expires": 1786523006.78079,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "UserID1",
+    "value": "7667491611044673898",
+    "domain": ".adfarm1.adition.com",
+    "path": "/",
+    "expires": 1793003006.787919,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_rxuuid",
+    "value": "%7B%22rx_uuid%22%3A%22RX-c60c5479-2558-4b35-8e04-2bae9e83444f-003%22%7D",
+    "domain": ".1rx.io",
+    "path": "/",
+    "expires": 1816763006.789785,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "matchadform",
+    "value": "5",
+    "domain": ".w55c.net",
+    "path": "/",
+    "expires": 1787819006.79058,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "demdex",
+    "value": "62080604431472597954586991493955060293",
+    "domain": ".demdex.net",
+    "path": "/",
+    "expires": 1800782796.325635,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dpm",
+    "value": "62080604431472597954586991493955060293",
+    "domain": ".dpm.demdex.net",
+    "path": "/",
+    "expires": 1800782796.325996,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_rxuuid",
+    "value": "%7B%22rx_uuid%22%3A%22RX-c60c5479-2558-4b35-8e04-2bae9e83444f-003%22%7D",
+    "domain": ".targeting.unrulymedia.com",
+    "path": "/",
+    "expires": 1816766797.227091,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "tvid",
+    "value": "608c2c5caadb47a8ad00c42a0621e7ff",
+    "domain": ".tremorhub.com",
+    "path": "/",
+    "expires": 1816783906.973699,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "tv_UICR",
+    "value": "k-SP6YdMu9wfJ4OF2hxEa7hGCs3qdoLJJa5_nu0Q",
+    "domain": ".tremorhub.com",
+    "path": "/",
+    "expires": 1787822797.164747,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "cto_bundle",
+    "value": "kktWKl9CQ3hldHJnakdYcFEwZ01qQ3FKc1hsY1JxbyUyRlAyc0lGWXRBVzZTMW9icHJFbHNXJTJCc1U1eCUyRmF0OFRCVUU5aXRNNTQlMkYlMkZybHF3N2tQYVJ2cHVESEtkMTU3Qks5ZFZ6Tlg1cENCNUtLOVc3U0d4Q2E0Q1BSaHFLY2xxYXc2clBMcFhtbyUyRmE3YVJhMlJWSEVhZ0x3RExpbGw2UFRtak9LYnJyaUduUk9WN055Z1klM0Q",
+    "domain": ".securite-routiere.gouv.fr",
+    "path": "/",
+    "expires": 1819394795,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "SPugT",
+    "value": "1785230796",
+    "domain": ".pubmatic.com",
+    "path": "/",
+    "expires": 1787822795.937125,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "data-c-ts",
+    "value": "1785230796",
+    "domain": ".media.net",
+    "path": "/",
+    "expires": 1787822796.076188,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "cto_bundle",
+    "value": "8d9XEF83ZVlReXJYWlpzeUtwVm85QWlzeFRoc1FyeCUyQksyakZUeVB5djh0Yjg4REtBJTJCQjNCUlZVZkclMkJEUVV3UjZ5cHV5S21qNE1UVWlKJTJCbzE1VFNMRFI0MmhwNlVDcVRZc3RzaERTUkdLbVRwQnRjR3REUzdQeTJBU1lncUZNbFVldlJNbDMwQXo2bnlHMFhJVGJSOVJ2aGE3UmN5QUd1Z292a1EyN0NaeVBzS2JXMCUzRA",
+    "domain": ".criteo.com",
+    "path": "/",
+    "expires": 1818926797.204948,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://securite-routiere.gouv.fr",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "SEARCH_SAMESITE",
+    "value": "CgQIxKEB",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1802004598.777229,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "AEC",
+    "value": "AdJVEaulB3Q-QklGHkNldT9jklKHNJrOTSwSQgnQdaHGxyn7FJWeFRhhmA",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1800778962.777294,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__Secure-STRP",
+    "value": "ANmZwa0_A7ouImwKS8D0rSdgriLxTmacFqt3d7rdIjjWCjZ5Liib34Y5PofJPn1bf7QcmebSTQ8YcmqmJVprI41gGq-Bp0PXNRKB",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1786452915.339707,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "NID",
+    "value": "533=UZIPy3-NWOP4t268JioVzko9UMpjUNTfLW2EdBc6nbpWY1VhxrgPueADB33p6VhfOfQQL7thgEbaI-8-8iuDYct8P0opX2YvxMhJNUHYmMIIlL6nR87D85pfFRFzCKTBg8NiuGLtSzFMYRtggsCPh52bLbB9OE-frKn1mqq6z_dqlsnLFJYLxP5kI3K87ABJ_V8FM88hrNg3tTaZYG1yg_xjHkYqs2urW7JBKK0JjOhmOVLePpXzOoKowzrHSFgQmn8erQvJzETFBWijoNKB6cwu7wSiB_fPl8kjGuZcHg_Kp0TPMqpJOJSdTMqz9yduc-Xp7PsWwBsTRf0zfjuKo2fdmDbxUW9WeZjbfxUNW-xI",
+    "domain": ".google.com",
+    "path": "/",
+    "expires": 1802263798.382619,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "DV",
+    "value": "82RAPV_2FWok0DBPczSSFW3BEvsN_1l9A1MKmBpcoAkAAAA",
+    "domain": "www.google.com",
+    "path": "/",
+    "expires": 1786453220,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "bZA_",
+    "value": "v1a9DOgw__2DO",
+    "domain": "moncompte.permisdeconduire.gouv.fr",
+    "path": "/",
+    "expires": 1786459823.772097,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_cfuvid",
+    "value": "BTPeQ5bm1530lhqzkGa250PxTy3cH4f8jVrsXEWcGOc-1786452623.7723255-1.0.1.1-v2toG7VABKozNeQaSi_Glaz_Y3q7zqTta1vvs3u2glA",
+    "domain": ".permisdeconduire.gouv.fr",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "cf_clearance",
+    "value": "dWrA9jWbycxDEMeBldQlT9WLKMtbIOBrPvkbHgpSoZY-1786452624-1.2.1.1-e7uzxRRNuv.WjL6y_GgW.6b0lB3tj03iOGTT1l341SiEgGhH_nvA3UlDRwu3Ktxjda.JF9JJdHAxVpXDmusXfEdTrsw6rssStnUqXjJ4jRWjkj5RY5jSpR1q4pcMz.o9ASwgWbVJ1nv2S.qrltJE7dLo3sM446g1cgJ4Fo0MSHWTESQ3PFOKYM__DPjmfNqiN5njk1tno2swAEN7cqwIZkK_XBOX25Ei7a3Tnxz4Iwxk0x90poDoiAVYXu0XP_1z0zyb7rQuz1XHuIvHgelMi0tH.P2clqt5pQu6txGkGq94TSavGnMH57JcZGANsJE2P8S2EPdbqfJjK8RVb.hN2Z0Bx70QMEnxZFL6MaWQsFk",
+    "domain": ".permisdeconduire.gouv.fr",
+    "path": "/",
+    "expires": 1817988624.074826,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://permisdeconduire.gouv.fr",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "__cf_bm",
+    "value": "V83sfWptUZxY_bRPL7DMYHUUtt4.gI1XKx1kYe4B484-1786452624.0423317-1.0.1.1-FeW7L_Y5YSnRyYQR6ODUhm4BOG0JGkJiZeJiB0NCyV7GY0Tu2lL8UI13Qo_fFyd3x8jwy8du_CsS4jJvZytWkU_R96VcO4YJ1Emqy3nfMDBOobpY9JHPp1JSlZ5iVsav",
+    "domain": ".permisdeconduire.gouv.fr",
+    "path": "/",
+    "expires": 1786454424.075141,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "mod_auth_openidc_session",
+    "value": "eyJhbGciOiAiZGlyIiwgImVuYyI6ICJBMjU2R0NNIn0..gKMlB9zGxmQokDoy.ZyLm4hS-6WU2lwjfEO7gMJLOvrmzxJw3ZkvGoEo5ms4_hBrzq__WYFO3F-uEx8A8GtQh67U99GF0-E6B-2VGn1afNw7YnjjRSIizCQOu9qhI39IQQUEIYnc1CnpuUUAxHuCQQfDHnFUcjbe8DKcw1qFwsnuXez4hJwU4CmMbHsXS8E5627NYA1WO8cGiMZNj0Y0Wq-YQKh6wdHtdSw-p65xf7A8fD5Ks82lnJv9PyY-bjCvUCWigGwnW67swCX28-5fNcZsak6EU81GHHRs7SgNYqUNU-Y9ufiFdSTdUlDcIdPzPyvS7s1hKqX_MIQcvkvtEYLzYbBUDSqKNoGCTiI2TWX3z1CfDQibxVm8R_aomTULnekjrHMJjjUi_bymZ2eUWu9njCr21SJpKn05l12pkEyKkGRPcH4v7izFfx4VPHY6ZU2b2Ngo883D7vAdEGbVnEIUfNaYgGEinG1rJRxGTrn9KLXf0yjPU00QSLdErRZbcunf2VLcnEGkdky_1L5pzcGTIWRYHxlhLSETp2JfJQdZhd-OCJxXlnUeTITlRFsLax8XbzLF8r9K-tjugMghlxrZ-ce6M8ZJq_i_4I1qhQYwwoF6R1T-TMFJ-MN4ULw3aBbGtk4-TLfYcPf_mdkA4owrju-ZAfZS5s_uhtQiNL_-bvjn7ZpRSZLmIuhTge-KYzSbcSmSH2JKIL-jfQO91e5NkiyGrYhQSMRPqQYKpiZQABRXgJiL5zCshX4GSrhU0GbjO_Epf9Aa7hzxDgSaO5fTrPt1HKQ-Vn-jmpdckSM-4JkNA3nxuf0U1un_b56HMs07FT4nssJH1UVZtEOxJzKfjVAxaHzb31KpXCgRV-pMnmGRrIyHt6x84dHc7HcyqqRV-yae00O0aK-lG9EzKBs3Hl7uHnUyR8EmB1f1XbqK3_GhUyKhvc9RuTXaIvx7513RaYan4IvJdB2wde9X8A_AGxRDDcTyvv-_cnIG55HmAXd8t4maqmZY9axjiRZS-i_7VOHgKiRPQRjEzTbJEeCpfOEldT3XXyiVp0QnNwpg8Zhf2iXgj244lCH50UYl2ky3WiAzlDmYo-IkCdLXKzKIgpeq8TjbliSVx2cjo1eYJbOKNeTQQ78fVCjeK_Za5pMApvC9ANmz03FnGGuUujGRCSiS_OQWM0Ytxh6awvcuGP98B-ye9VO_sABnRr0avQC0p2I2gfEOswrxcmWULX46YjWTN3e9r8ztmGigMmQT2VB769Pq2Qm30ywvJ8NaitOaWEPaO131IWW131bkNZmykV-4IwSMsR3UeZZ9k9tSgihCOpBOUYpHhZD8fa-x-T4oqDWrBnVaZEUm7Cr2cDkf8hDeEvm93_nPUKVbGKtVoZuFhPsE-PrxFnXafBqouDLS1Mp5wqV5K8w2IfrbqQwzYOKuGG-vIdB9Dgwg36dnRk9s4ZHvakJ6o5KtnAA95OzmcKwCkFWsqNxu8mhilNasZsHtQ5RZZabmU01kNTf2maYoOccRRD62SWg971t2K6fW-RTpmdQNKTAXmZLqY2CltlrAc8TLzZZOJOh_S8o1aIU9m7Fs3l8DolLO_lSUwwE7jJbNcymrXMueeV29L3DWBHtSdGR_7JF7eatzRJf8i_KQgtLVzXKFpit1ZqKYGJ7545QZkhmURXhL_Fyxvwp1Hjw2hmNwn7UeXOVKkGPSb7DJsFiI607R597Fipmn6FIo_9A9hWMgldoZTpevIZdagO3oUr98RCRH7CmN1MCxsWoNQexzomoTNoASUgqc5_7LtYN7bIBWkXpL8vwc26sNiOUV7RabIj9FfLV1sWN91gGEmZmWkzkYUDBpcv0JpKxXl7QsybY_CKZhiaD7E7_O8_DxhfejRFNhelde9VXQ-UNYC_bJ_6fcOYs0fL-yzxfnCWyfzZfFKtB8DefxWWgtx-YmxZ-jB1qshlaUl4FzX6-fFIQRN5oEu5H0N4z-71sYkMzH9vMt_LpTWf1a4Fe-3cEEMgIiAeijV5avly-E6hoSQ5cCxa2UTY6SKRr8_OAbckcE58ia6IsBsnVwrwP5T6NvTkmWGjZMGZmO46_nounwOAOEU_nmHmgsuO_DbKEU_Z_Q6UYZoLJQn1xcPhe1_y3lvP54SYa2tP9oWC4iUqQrvmhJYOmW-E4-lbr_FB6-9KUtoSJHtzbxdljtgp14KIr7BvVM7_C77Z4rIzAuRlOkZ2IEtVGcZHoWVrtfR1MUDSg91QpwOVVhqKLlyAbsmmGfgji2M76behGr2J0ZpFup7P5-sAt0PeRF4vZ60BQrFskqQRXFvKg0oJlVUSQcZMHPWqG-cQ1DrgqLibPO46RmevCyOuYjeDmNkS-qysFhLqV2Yb15G8zAOXaJAjkevMKDWUZXGDbUxSH9bLDL1g9fVPOjCk935sAE9G6wrMg5ARs6xii6eHm3jtwLRTnb13DXXAd1mWApsUcRHeGgmfgttrflVFu2lwKI2km3ffDpqdaer4gnesTHH7yNzwIlAg8E5h3vE6meLvCWVvXDL7SXAM7SRVxjuB7vU3qNZRzndRw3liB4PojdM_DIKkeTN7xAFd9mdmCAtjX74Yr6CeFyXhWKuTllBRc0TqYBWhV-eiOX437jW65ORr89zA5AGqp9e1HFnM83XV-_0srEkGuvMKdg3il5Ea1MChtnP_sEZxO8fy7SNird_rj518KuNeVugaoQDbD-wo5QtrSF_h_QPf5cIZeU0J2LvO_SoPAD3Pk8WeEtPTk6vWp6dgqbwUGKgCTxFvuJyxAa5C5asx_kgZ5jXMdIZjxn-vxjtBtdGFX6yWhk3_-Z5Iv1dwYMJefxr7UUPgNhKJUSQXuNK3eI9IjIcwISxrCmuNa6Y0089a3xknGzaAddBlUlnmhuidsaYkPS5KmWwIQSyiJErFZtv2YMQ-NnMl6h4Zi2xNhLWKr_AigWYhqCWAbbc8QIJbKKwEJG4wMHrzr1AtN6MzJD1QHyoVqqE16GVfY93GIDc1YVXUCXzRuHj_bwuiBLwfWpRjYmkLx-33ikkUvbZaAONyu0W-l84pw9b3pXEBDDK3K9FTt94KXiy0lq58x9TNC8UbHsIe43rEgAJP75mAN7vP2Powy0HaUdIxTt6L6zJW9kBgd7J_cYFgrrhQnKow1y8STGjR98PvmAlfQ9Wr1czrk8I1eCpozUPQF8u9GlAugGGeOoEO08x9iA.My7XNUIXNUCE-5vlD9fqYA",
+    "domain": "pro.permisdeconduire.gouv.fr",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

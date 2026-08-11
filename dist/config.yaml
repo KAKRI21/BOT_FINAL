@@ -1,0 +1,36 @@
+# ============================================================
+#  CONFIG BOT RDVPERMIS — généré par l'interface graphique
+# ============================================================
+
+search:
+  groupe_permis: B
+  date_min: '2026-09-01'
+  date_max: '2026-10-05'
+  dates_specifiques: []
+  heure_min: 07:00
+  heure_max: '11:00'
+  centres:
+  - ST BRICE B
+  dept: null
+reservation:
+  quota_max: 4
+  max_par_creneau: -1
+  mode: consecutifs
+  nb_eleves: 1
+bot:
+  interval_secondes: 5
+  rush_auto_reload: true
+  rush_heure: '15:00'
+notifications:
+  son_local: true
+  telegram:
+    active: false
+    bot_token: ''
+    chat_id: ''
+  email:
+    active: false
+    expediteur: ''
+    destinataire: ''
+    smtp_host: ''
+    smtp_port: 587
+    mot_de_passe_app: ''

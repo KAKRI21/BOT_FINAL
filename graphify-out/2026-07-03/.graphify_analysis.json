@@ -1,0 +1,238 @@
+{
+  "communities": {
+    "0": [
+      "bot_botrdvpermis",
+      "bot_botrdvpermis_arreter",
+      "bot_botrdvpermis_boucle",
+      "bot_botrdvpermis_demarrer",
+      "bot_botrdvpermis_get_centres_actifs",
+      "bot_botrdvpermis_get_panier",
+      "bot_botrdvpermis_heure_max",
+      "bot_botrdvpermis_heure_min",
+      "bot_botrdvpermis_init",
+      "bot_botrdvpermis_notifier",
+      "bot_botrdvpermis_quota_atteint",
+      "bot_botrdvpermis_quota_max",
+      "bot_botrdvpermis_reserver_un",
+      "bot_botrdvpermis_scan_centre_unique",
+      "bot_botrdvpermis_se_connecter",
+      "bot_botrdvpermis_verifier_session",
+      "bot_rationale_299"
+    ],
+    "1": [
+      "rdvpermis_bot_bot_botrdvpermis",
+      "rdvpermis_bot_bot_botrdvpermis_arreter",
+      "rdvpermis_bot_bot_botrdvpermis_boucle",
+      "rdvpermis_bot_bot_botrdvpermis_demarrer",
+      "rdvpermis_bot_bot_botrdvpermis_get_panier",
+      "rdvpermis_bot_bot_botrdvpermis_init",
+      "rdvpermis_bot_bot_botrdvpermis_notifier",
+      "rdvpermis_bot_bot_botrdvpermis_scan_centre_unique",
+      "rdvpermis_bot_bot_botrdvpermis_se_connecter",
+      "rdvpermis_bot_bot_botrdvpermis_verifier_session"
+    ],
+    "2": [
+      "config",
+      "rdvpermis_bot_bot",
+      "rdvpermis_bot_bot_rationale_1",
+      "rdvpermis_bot_bot_sauvegarder_session",
+      "rdvpermis_bot_config",
+      "rdvpermis_bot_debug_login_png",
+      "rdvpermis_bot_readme",
+      "rdvpermis_bot_requirements",
+      "requirements"
+    ],
+    "3": [
+      "bot_sauvegarder_session",
+      "main",
+      "main_apply_overrides",
+      "main_load_config",
+      "main_main",
+      "main_rationale_32",
+      "main_run",
+      "main_setup_logging"
+    ],
+    "4": [
+      "rdvpermis_bot_main",
+      "rdvpermis_bot_main_load_config",
+      "rdvpermis_bot_main_main",
+      "rdvpermis_bot_main_mode_test",
+      "rdvpermis_bot_main_rationale_1",
+      "rdvpermis_bot_main_run",
+      "rdvpermis_bot_main_setup_logging"
+    ],
+    "5": [
+      "bot",
+      "bot_filtre_heure",
+      "bot_filtrer_creneaux",
+      "bot_rationale_1",
+      "bot_rationale_105",
+      "bot_rationale_119"
+    ],
+    "6": [
+      "notifier",
+      "notifier_bip_sonore",
+      "notifier_envoyer_email",
+      "notifier_envoyer_telegram",
+      "notifier_notifier",
+      "notifier_rationale_1"
+    ],
+    "7": [
+      "rdvpermis_bot_notifier",
+      "rdvpermis_bot_notifier_bip_sonore",
+      "rdvpermis_bot_notifier_envoyer_email",
+      "rdvpermis_bot_notifier_envoyer_telegram",
+      "rdvpermis_bot_notifier_notifier",
+      "rdvpermis_bot_notifier_rationale_1"
+    ],
+    "8": [
+      "rdvpermis_bot_test_scan",
+      "rdvpermis_bot_test_scan_main",
+      "rdvpermis_bot_test_scan_rationale_1",
+      "rdvpermis_bot_test_scan_scan_centre"
+    ],
+    "9": [
+      "rdvpermis_bot_test_identite",
+      "rdvpermis_bot_test_identite_tester_identite"
+    ],
+    "10": [
+      "test_identite",
+      "test_identite_tester_identite"
+    ],
+    "11": [
+      "test_navigation",
+      "test_navigation_tester_navigation_visuelle"
+    ],
+    "12": [
+      "debug_login_png"
+    ]
+  },
+  "cohesion": {
+    "0": 0.16176470588235295,
+    "1": 0.28888888888888886,
+    "2": 0.2222222222222222,
+    "3": 0.42857142857142855,
+    "4": 0.47619047619047616,
+    "5": 0.4,
+    "6": 0.5333333333333333,
+    "7": 0.5333333333333333,
+    "8": 0.6666666666666666,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0
+  },
+  "gods": [
+    {
+      "id": "bot_botrdvpermis",
+      "label": "BotRdvPermis",
+      "degree": 22
+    },
+    {
+      "id": "rdvpermis_bot_bot_botrdvpermis",
+      "label": "BotRdvPermis",
+      "degree": 10
+    },
+    {
+      "id": "main_main",
+      "label": "main()",
+      "degree": 7
+    },
+    {
+      "id": "notifier_notifier",
+      "label": "notifier()",
+      "degree": 6
+    },
+    {
+      "id": "rdvpermis_bot_main_main",
+      "label": "main()",
+      "degree": 6
+    },
+    {
+      "id": "bot_sauvegarder_session",
+      "label": "sauvegarder_session()",
+      "degree": 5
+    },
+    {
+      "id": "bot_filtrer_creneaux",
+      "label": "_filtrer_creneaux()",
+      "degree": 4
+    },
+    {
+      "id": "rdvpermis_bot_notifier_notifier",
+      "label": "notifier()",
+      "degree": 4
+    },
+    {
+      "id": "bot_filtre_heure",
+      "label": "_filtre_heure()",
+      "degree": 3
+    },
+    {
+      "id": "main_apply_overrides",
+      "label": "apply_overrides()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "main()",
+      "target": "sauvegarder_session()",
+      "source_files": [
+        "rdvpermis-bot/main.py",
+        "bot.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "BotRdvPermis",
+      "source_files": [
+        "main.py",
+        "bot.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "BotRdvPermis",
+      "source_files": [
+        "main.py",
+        "bot.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "mode_test()",
+      "target": "BotRdvPermis",
+      "source_files": [
+        "rdvpermis-bot/main.py",
+        "bot.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "run()",
+      "target": "BotRdvPermis",
+      "source_files": [
+        "rdvpermis-bot/main.py",
+        "bot.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 5006,
+    "output": 961
+  }
+}
